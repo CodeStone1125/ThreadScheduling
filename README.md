@@ -175,7 +175,6 @@ Thread 2 is running
 Thread 0 is running
 Thread 2 is running
 Thread 0 is running
-
 ```
 Four threads have been designated for execution. Threads 1 and 3 are configured as real-time tasks, utilizing the FIFO scheduling policy. Given that Thread 3 holds a higher priority compared to Thread 1, it is executed before Thread 1. Threads 0 and 2 are held in abeyance until all real-time tasks conclude their execution. They operate under the SCHED_OTHER policy, commonly known as the Completely Fair Scheduler (CFS). As a result, Threads 0 and 2 take turns executing for a specified duration before being preempted.
 
