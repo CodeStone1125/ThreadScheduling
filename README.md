@@ -1,7 +1,7 @@
 Scheduling Policy Demonstration Program
 ===
 
-Homework2 for NYCU Operation System aut 2023
+NYCU Operation System aut 2023 Homework2
 
 * [Assignment 2: Scheduling Policy Demonstration Program](https://hackmd.io/@Bmch4MS0Rz-VZWB74huCvw/rJ8OLx6fp)
 
