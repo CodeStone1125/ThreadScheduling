@@ -132,16 +132,16 @@ The thread function, `thread_func`, can be segmented into two primary steps:
     
 ### test result
 Finally, here is the test result:
-	 ```bash
-	sudo ./sched_test.sh ./sched_demo ./sched_demo_312551132
-	[sudo] williechu1125 的密碼： 
-	Running testcase 1: ./sched_demo -n 1 -t 0.5 -s NORMAL -p -1 ......
-	Result: Success!
-	Running testcase 2: ./sched_demo -n 2 -t 0.5 -s FIFO,FIFO -p 10,20 ......
-	Result: Success!
-	Running testcase 3: ./sched_demo -n 3 -t 1.0 -s NORMAL,FIFO,FIFO -p -1,10,30 ......
-	Result: Success!
-	 ```
+ ```bash
+sudo ./sched_test.sh ./sched_demo ./sched_demo_312551132
+[sudo] williechu1125 的密碼： 
+Running testcase 1: ./sched_demo -n 1 -t 0.5 -s NORMAL -p -1 ......
+Result: Success!
+Running testcase 2: ./sched_demo -n 2 -t 0.5 -s FIFO,FIFO -p 10,20 ......
+Result: Success!
+Running testcase 3: ./sched_demo -n 3 -t 1.0 -s NORMAL,FIFO,FIFO -p -1,10,30 ......
+Result: Success!
+ ```
 ### Cases Discussion
 > Describe the results of `./sched_demo -n 3 -t 1.0 -s NORMAL,FIFO,FIFO -p -1,10,30` and what causes that.
 
